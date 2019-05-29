@@ -1,0 +1,42 @@
+---
+title: "Hospital Standardised Mortality Ratios"
+subtitle: "RAP Champions Meetup"
+author: 'David Caldwell <br> Information Services Division, NHS Scotland <br>'
+date: "May 28, 2019 <br> Slides: https://github.com/davidc92/20190528_RAP_Champions"
+output:
+  ioslides_presentation:
+    css: my-theme.css
+---
+
+```{r setup, include = FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Background
+
+- The Hospital Standardised Mortality Ratios publication is released quarterly
+- Risk-adjusted mortality rates for a selection of Scottish hospitals
+- Produced in traditional the publication format of a **static pdf document** with accompanying **excel tables**.
+- Production uses **proprietary software** and is **time-consuming**, involving extensive manual formatting and checking.
+
+
+## Project Aim
+
+- Move all data wrangling from SPSS to R
+- Use RMarkdown to automate publication documents
+- Use R to automate Excel tables
+- RAP level 7 (R package)
+
+## Repo
+
+- https://github.com/NHS-NSS-transforming-publications/hsmr
+
+## Thank You {.smaller}
+Questions/Tips?
+
+Contact Transforming Publishing: nss.isdtransformingpublishing@nhs.net
+
+Transforming Publishing on GitHub: <br> https://github.com/NHS-NSS-transforming-publications
+
+
