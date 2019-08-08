@@ -1,8 +1,8 @@
 ---
-title: "Hospital Standardised Mortality Ratios"
-subtitle: "RAP Champions Meetup"
+title: "Best Practice in R"
+subtitle: "R Style Guide and Projects"
 author: 'David Caldwell <br> Information Services Division, NHS Scotland <br>'
-date: "May 28, 2019 <br> Slides: https://github.com/davidc92/20190528_RAP_Champions"
+date: "July 19, 2019"
 output:
   ioslides_presentation:
     css: my-theme.css
@@ -13,26 +13,21 @@ library(knitr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Background
+## R Style Guide
 
-- The Hospital Standardised Mortality Ratios publication is released quarterly
-- Risk-adjusted mortality rates for a selection of Scottish hospitals
-- Produced in traditional the publication format of a **static pdf document** with accompanying **excel tables**.
-- Production uses **proprietary software** and is **time-consuming**, involving extensive manual formatting and checking.
+- Mostly guidance on _presentation_ of code, with a little advice on style. 
+- Reviewed Regularly
+- https://github.com/Health-SocialCare-Scotland/R-Resources/blob/master/PHI%20R%20style%20guide.md
 
 
-## Project Aim
+## R Projects
 
-- Move all data wrangling from SPSS to R
-- Use RMarkdown to automate publication documents
-- Use R to automate Excel tables
-- RAP level 7 (R package)
+- Links together all files in a working directory
+- Can manage options independently of RStudio defaults e.g. workspace settings
+- Interacts with git repositories well
 
-## Repo
 
-- https://github.com/NHS-NSS-transforming-publications/hsmr
-
-## Thank You {.smaller}
+## Thank You 
 Questions/Tips?
 
 Contact Transforming Publishing: nss.isdtransformingpublishing@nhs.net
